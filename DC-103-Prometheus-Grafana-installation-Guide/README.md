@@ -178,7 +178,7 @@ sudo systemctl restart prometheus
 ```
 Hit the URL in your web browser to check weather our target is successfully scraped by ``Prometheus`` or not
 
-![Screenshot_50](https://github.com/user-attachments/assets/0b183c35-7412-49b9-bd29-3a64b91e7fc4)
+![Screenshot_50](https://github.com/user-attachments/assets/14d2b6e8-9c91-4d5b-8d7d-c214f8db6659)
 
 ## 9 : Install ``Grafana`` on Ubuntu 24.04 LTS
 Add the ``Grafana`` GPG key in Ubuntu using wget
@@ -219,24 +219,24 @@ Here you can see Login page of ``Grafana`` now you will have to login with below
 ## 10 : Configure ``Prometheus`` as ``Grafana`` DataSource
 Click on Add Data sources and select ``Prometheus``
 
-![Screenshot_51](https://github.com/user-attachments/assets/55e58a01-064b-4c38-9108-a91c85162900)
+![Screenshot_51](https://github.com/user-attachments/assets/a27d5522-14e2-497c-9521-bb91238d0d92)
 
 Now configure ``Prometheus`` data source by providing ``Prometheus`` URL
 
-![Screenshot_52](https://github.com/user-attachments/assets/4488a4aa-76ac-415d-935d-4f9c48cd2cd1)
+![Screenshot_52](https://github.com/user-attachments/assets/95fc80e9-d255-477d-8f52-78c17bb8d9d0)
 
 Now click on ``Save`` & ``test`` so it will prompt a message Data Source is working.
 
 ## 11 : Creating ``Grafana`` Dashboard to Monitor Linux Server
 So we will use ``14513`` to import Grafana.com, Lets come to ``Grafana`` Home page and you can see a “+” icon. Click on that and select ``“Import”``
 
-![Screenshot_53](https://github.com/user-attachments/assets/59f0170c-425c-461e-b987-4a39a66e1baa)
+![Screenshot_53](https://github.com/user-attachments/assets/91c2613d-18ac-42e5-8e1e-3d7eb578f3f2)
 
 Now provide the Grafana.com Dashboard ID which is ``14513`` and click on ``Load``
 
-![Screenshot_54](https://github.com/user-attachments/assets/dbc422d9-e60d-4bf6-8479-16f33d3335c4)
+![Screenshot_54](https://github.com/user-attachments/assets/59ff877e-4186-4882-85bc-4a9f18ad0da1)
 
 Now provide the name and select the ``Prometheus`` Datasource and click on ``Import``.
 
-![Screenshot_55](https://github.com/user-attachments/assets/bbe524b6-45c8-4ff5-b18c-db9a64baeb47)
+![Screenshot_55](https://github.com/user-attachments/assets/e488ee9f-56c4-44f1-80fd-0a6bb121e630)
 
